@@ -1,4 +1,4 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Oleh Kyba
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -40,7 +40,7 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Oleh Kyba - CV},
     % Keep pdfpagemode=UseNone: this block runs after moderncv's own
     % \AtEndPreamble (moderncv.cls sets pdfpagemode there), so a FullScreen
     % value here would win and open every CV in fullscreen presentation mode.
@@ -48,15 +48,18 @@
 }}
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
+\usepackage{fontspec}
+\setsansfont{TeX Gyre Heros}
 
 % personal data
-\name{[First]}{[Last]}
+\name{Oleh}{Kyba}
 % If you have no address to list, DELETE this whole line. \address{}{}{} fails
 % with "There's no line here to end" on every moderncv version.
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\address{Bratislava, Slovakia}{}{}
+\phone[mobile]{+421~949~418~279}
+\email{oleh.kyba@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/oleh-kyba-0621b11b5}{LinkedIn}, \href{https://github.com/OlehKyba}{GitHub}}
 
 \begin{document}
 
@@ -67,124 +70,67 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
-
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
+\small{Senior Python engineer building backend services for Prom.ua, a high-load marketplace. Experienced in delivering merchant payments, asynchronous integrations and product features from technical design through production rollout, with a focus on reliability and cross-team collaboration.}
 
 \section{Core Competencies}
-\vspace{1pt}
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item \textbf{Backend}: Python, asyncio, aiohttp, FastAPI, Flask, REST, JSON-RPC and gRPC; limited Go experience.
+\item \textbf{Data and messaging}: PostgreSQL, SQLAlchemy, Redis, Kafka, RabbitMQ, Elasticsearch, Trino and Apache Iceberg.
+\item \textbf{Asynchronous work and data collection}: Celery, Apache Airflow and Scrapy.
+\item \textbf{Frontend}: React, JavaScript and TypeScript.
+\item \textbf{Delivery and observability}: Docker, Kubernetes, Helm, GitLab CI/CD, GitHub Actions, Prometheus, Grafana, Azure App Services, AWS and S3.
+\item \textbf{Engineering}: Event-driven integration, SQL optimization, testing, retries, deduplication and feature-flag rollout.
 \end{itemize}
-
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
 
 \section{Professional Experience}
-\vspace{3pt}
+\needspace{5\baselineskip}
+\noindent\textbf{EVO / Prom.ua} \hfill May 2021--present\\[3pt]
+\textbf{Senior Software Engineer} \hfill June 2025--present\\[2pt]
+\textbf{Middle Software Engineer} \hfill January 2022--May 2025\\[2pt]
+\textbf{Strong Junior Software Engineer} \hfill May--December 2021
+\par\vspace{3pt}
 \begin{itemize}
-
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item {[Achievement or responsibility 1 - be specific, use numbers where possible]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-    \item {[Achievement or responsibility 4]}
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-    \item {[Achievement or responsibility 3]}
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item {[Achievement or responsibility 1]}
-    \item {[Achievement or responsibility 2]}
-\end{itemize}}}
-
+\item \textbf{Merchant payments / RozetkaPay}: Owned the merchant-side migration, building the payment frontend, web and mobile backend APIs, provider integration and asynchronous status tracking. Designed Kafka payment-status handling with deduplication, retries and dead-letter handling, locking, PostgreSQL status history and provider sequence IDs for out-of-order events. Led a staged rollout of the base card flow to \textbf{100\% of its users} in January 2026.
+\item \textbf{Apple Pay and Google Pay}: Added Apple Pay and Google Pay to the merchant payment experience in a subsequent phase, accounting for a reported \textbf{12\% and 11\%} of merchant payments respectively. Coordinated mobile and fintech teams and implemented backend selection of a separate configuration for the B2B iOS Apple Pay Merchant ID.
+\item \textbf{Company tagging}: Built and deployed a company-tagging service end to end, including backend, React frontend, Kafka integrations, Trino, Apache Iceberg, CI/CD and monitoring. Replaced expensive query-time calculations with persisted daily tag assignments, making merchant-cabinet pages \textbf{substantially faster}.
+\item \textbf{Telegram support}: Built a Telegram support integration with the existing CRM and Zendesk workflow. Managers reported that Telegram accounted for \textbf{22\% of support requests} about three months after launch.
+\item \textbf{Advertising balances}: Proposed and implemented advertising-balance charging changes with product and legal stakeholders; the reported result was approximately \textbf{UAH 10 million over about one month}, based on an estimate.
+\item \textbf{AI-assisted development}: Use Codex, Claude Code and Cursor for AI-assisted development; create and maintain monolith-specific agent skills that give agents a development feedback loop: run the project, build the frontend, apply migrations when needed and verify changes in a browser with Playwright CLI.
+\item \textbf{AI skills marketplace}: Designed a scheduled synchronization approach for a shared internal AI skills marketplace, using merge requests for review; colleagues continued to use it after the hackathon.
+\item \textbf{Service migration}: Rewrote an existing Go microservice in Python as part of a larger service.
+\item \textbf{Testing}: Added test pipelines and tests for several services, encouraged test review, and built reusable feature-flag and configuration testing utilities.
+\item \textbf{Security}: Addressed CRM security findings; added CAPTCHA and Redis limits to paid-SMS actions.
 \end{itemize}
+\needspace{5\baselineskip}
+\cventry{September 2020--May 2021}{\textbf{Junior Software Engineer -- Python}}{Simporter}{}{}{%
+\begin{itemize}
+\item \textbf{Product APIs}: Developed backend APIs and integrations for data products, mainly Needs Analysis and White Space.
+\item \textbf{Task management}: Built an asynchronous task-management service with scraper, Airflow and Celery integrations.
+\item \textbf{Flask logging}: Developed and maintained a Flask extension for ELK logging, wrapping python-logstash-async.
+\item \textbf{Database optimization}: Optimized database access, including N+1 queries, connection pooling and indexes; developed Scrapy spiders and Airflow integrations.
+\item \textbf{Private PyPI}: Set up and maintained a private PyPI server; worked with GitHub Actions and Azure App Services.
+\end{itemize}}
 
-% ============================================================
-%     EDUCATION
-% ============================================================
+\section{Volunteer Experience}
+\needspace{5\baselineskip}
+\cventry{March--June 2022}{\textbf{Python Software Engineer, volunteer NFT platform}}{}{}{}{%
+\begin{itemize}
+\item \textbf{Fundraising platform}: Contributed to a volunteer NFT fundraising platform supporting Ukraine during the full-scale invasion, including its defense forces. The project team reportedly raised \textbf{92.7 ETH}.
+\item \textbf{Data synchronization}: Built a Python/asyncio worker running hourly on AWS Lambda to synchronize OpenSea NFT data with the platform database and landing page.
+\end{itemize}}
 
 \section{Education}
-\vspace{1pt}
-\begin{itemize}
+\needspace{5\baselineskip}
+\cventry{June 2025}{Master of Science, Computer Science}{National University of Kyiv-Mohyla Academy}{}{}{}
+\needspace{5\baselineskip}
+\cventry{June 2021}{Bachelor of Science, Computational Science}{NTUU ``Igor Sikorsky Kyiv Polytechnic Institute''}{}{}{}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
-\end{itemize}
-
-% ============================================================
-%     LANGUAGES
-% ============================================================
+\section{Certifications}
+\cvitem{2026}{Hugging Face Agents Course, Certificate of Excellence.}
+\cvitem{2022}{Machine Learning Specialization, DeepLearning.AI and Stanford Online (Coursera). \href{https://www.coursera.org/account/accomplishments/specialization/certificate/GTV7FBL2W48T}{Certificate}}
 
 \section{Languages}
-\vspace{1pt}
-\begin{itemize}
-\item {[Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).}
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item {[Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
-\end{itemize}
+\cvitem{}{Ukrainian: native; English: C1.}
+% Confirm whether to include Russian, recorded as C2 in the old CV.
 
 \end{document}

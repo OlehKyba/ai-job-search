@@ -12,32 +12,49 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+These are evidence-based prompts, not polished interview answers. Consult the source records for scope and uncertainties before use.
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Merchant payments migration
+**Source:** Career interview, EVO-01 and EVO-02.
+**What happened:** Owned merchant-side provider integration and coordinated rollout across web and mobile APIs.
+**Why it matters:** Ownership, reliable event processing, cross-team delivery.
+**S/T/A/R stub:**
+- Situation: Legacy payments needed modernization.
+- Task: Deliver merchant-side integration and coordinate with other teams.
+- Action: Implemented web and backend integration, Kafka status handling and a feature-flag rollout.
+- Result: Base card/saved-card flow reached 100% of its users on 10 January 2026; wallet payments followed separately.
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Company tagging service
+**Source:** Career interview, EVO-05 and old CV.
+**What happened:** Built a separate service with persisted company tags and integrated it with other systems.
+**Why it matters:** Architecture, independent delivery, performance improvements.
+**S/T/A/R stub:**
+- Situation: Conditional tags required expensive query-time evaluation.
+- Task: Build and integrate a more suitable tagging service.
+- Action: Used repository interfaces and dependency injection, delivered integrations and deployment/monitoring.
+- Result: Merchant cabinet became substantially faster, qualitatively; no measured improvement recorded.
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### Advertising-balance charging changes
+**Source:** Career interview, EVO-03.
+**What happened:** Proposed and implemented changes after product and legal discussions.
+**Why it matters:** Product judgment, stakeholder collaboration, business impact.
+**S/T/A/R stub:**
+- Situation: Unused advertising balances and the old charging model presented a business problem.
+- Task: Explore and implement feasible changes.
+- Action: Worked with product and legal and implemented an expanded charging algorithm and paywall.
+- Result: Approximately UAH 10 million in about a month, a user-reported estimate; the separate reactivation proposal was deferred.
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### AI skills marketplace synchronization
+**Source:** Career interview, EVO-04.
+**What happened:** Designed a synchronization approach for project-specific AI skills in a shared internal marketplace.
+**Why it matters:** Initiative, maintainability, collaboration.
+**S/T/A/R stub:**
+- Situation: Project-specific skills could become stale as code changed.
+- Task: Design a way to keep the marketplace current.
+- Action: Designed scheduled synchronization and merge-request review; another team configured security tooling.
+- Result: Continued internal use was reported; no adoption count is established.
 
 ## Common Tough Questions
 

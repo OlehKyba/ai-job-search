@@ -20,8 +20,10 @@ Update this summary when confirmed facts change; do not maintain a separate comp
 ### Identity
 
 - **Name:** Oleh Kyba
-- **Location:** Slovakia, planned remote-work base; Bratislava in the old CV, current city not reconfirmed.
-- **Email:** vestigor0@gmail.com, from the old CV and explicitly configured for this repository's Git identity; confirm current application contact details before producing a CV.
+- **Location:** Bratislava, Slovakia, confirmed by user.
+- **Email for applications:** oleh.kyba@gmail.com.
+- **Phone:** +421 949 418 279, confirmed current.
+- **Previous email:** vestigor0@gmail.com, from the old CV and configured for this repository's Git identity.
 - **LinkedIn:** https://www.linkedin.com/in/oleh-kyba-0621b11b5
 - **GitHub:** https://github.com/OlehKyba
 - **Languages:**
@@ -47,12 +49,12 @@ Update this summary when confirmed facts change; do not maintain a separate comp
 ### Professional Experience
 
 - **Commercial experience:** Approximately six years, user-reported; overlapping volunteering is not additional commercial tenure.
-- **EVO / Prom.ua — Senior Software Engineer**; company tenure **May 2021–present**. Promoted to **Middle in January 2022**, **Senior in June 2025**. Official intermediate English title not provided.
+- **EVO / Prom.ua — Senior Software Engineer**; Prom.ua is a high-load project, as described by the user; traffic and load figures are not specified. Company tenure **May 2021–present**. Initial level **Strong Junior** (May–December 2021); promoted to **Middle in January 2022**, **Senior in June 2025**. Official English titles not separately confirmed.
   - Started with CRM maintenance/features; grew into clarifying product requirements, evaluating feasibility, and owning implementation, integration, delivery, and rollout across significant projects.
-  - Owned merchant-side RozetkaPay migration: web frontend, web/mobile backend APIs, provider integration, reliable Kafka status handling, and mobile-team coordination. Base card/saved-card rollout reached **100% of this merchant payment flow on 10 January 2026**; Apple Pay/Google Pay followed separately.
+  - Owned merchant-side RozetkaPay migration: web frontend, web/mobile backend APIs, provider integration, reliable Kafka status handling, and mobile-team coordination. Base card/saved-card rollout reached **100% of this merchant payment flow on 10 January 2026**; Apple Pay/Google Pay followed separately; user reports 12% and 11% of all merchant payments respectively, with measurement period and basis unspecified.
   - Independently built company tagging across backend/frontend/integrations, GitLab CI/CD, Helm deployment templates, Prometheus metrics, Grafana dashboards/alerts. Replaced expensive query-time tags with daily persisted assignments; data sources evolved analytics DB -> CSV/S3 -> Trino behind repository interfaces/DI. Page speedup is qualitative, without numeric measurements.
   - Built Telegram support integration and CI/CD/deployment. Managers reported **22% of support requests** through Telegram about three months after the approximate summer 2024 launch; historical reported channel share, not a current verified metric. Viber extension was someone else's work.
-  - Investigated, proposed, coordinated with product/legal, and implemented advertising-balance charging changes around summer 2026. **Approximately UAH 10 million in about one month** is an unverified user estimate, not an exact revenue claim. Further trial/reactivation proposal was deferred, not implemented.
+  - Investigated, proposed, coordinated with product/legal, and implemented advertising-balance charging changes around summer 2026. **Approximately UAH 10 million in about one month** was reconfirmed by the user as approximate, not independently reconciled or an exact revenue claim. Further trial/reactivation proposal was deferred, not implemented.
   - Designed project-skill synchronization into a shared GitLab AI marketplace for the **22 May 2026** hackathon; continued internal use reported. Security tooling was configured by another team.
 - **Simporter — Junior Software Engineer, Python** (**September 2020–May 2021**, old CV dates, not separately reconfirmed). First commercial development role.
   - Backend work mainly on Needs Analysis and also White Space; limited JTI support/bug fixes and probably a database-optimization case. Data engineers/scientists owned the main NLP/model pipeline work.
@@ -60,20 +62,21 @@ Update this summary when confirmed facts change; do not maintain a separate comp
   - **No involvement in Prelaunch**; exclude it from personal experience despite the old CV product list.
 - **Volunteer NFT platform — Python synchronization worker** (**March–June 2022**, old CV dates).
   - OpenSea API -> database metadata/image URLs; hourly AWS Lambda from a CI-built container image. Another developer owned Next.js.
-  - **92.7 ETH** was the project leader/founder's reported **team result**, not personal fundraising or an independently reconciled amount.
+  - Volunteer NFT fundraising supported Ukraine, including its defense forces, per user; **92.7 ETH** was the project leader/founder's reported **team result**, not personal fundraising or an independently reconciled amount.
 
 ### Technical Skills
 
 - **Primary:** Python; backend/API development; asyncio, aiohttp, FastAPI; PostgreSQL, Redis; Kafka; REST/gRPC.
-- **Secondary:** React/frontend integrations; Celery, Apache Airflow, SQLAlchemy, Flask, Scrapy; RabbitMQ. JavaScript, Go, Elasticsearch are listed in the old CV without established depth/examples.
+- **Secondary:** Trino and Apache Iceberg in the tagging service, S3; React/frontend integrations and TypeScript frontend experience; Celery, Apache Airflow, SQLAlchemy, Flask, Scrapy; RabbitMQ. Limited Go experience includes rewriting a Go microservice in Python as part of a larger service; JavaScript and Elasticsearch are listed in the old CV without established depth/examples.
+- **AI-assisted development:** Uses Codex, Claude Code and Cursor; creates and maintains monolith-specific agent skills to give agents a development feedback loop through test-environment login, project startup, frontend builds, migrations as needed and admin/CRM browser verification with Playwright CLI. Do not expose internal authentication steps.
 - **Architecture and practice:** Repository/DAO interfaces, dependency injection, service boundaries, asynchronous/event-driven integration, deduplication, retries/DLQ, locking, status history/order handling, SQL optimization, incremental testing/TDD, feature-flag rollout.
 - **Domain:** Marketplace CRM/back office, merchant payment integration, company segmentation/special offers, support tooling, NLP-product backend work, internal AI tooling.
-- **Software:** Docker, Kubernetes, Helm, GitLab CI/CD, Prometheus, Grafana, Git, Linux; concrete AWS experience limited to the described Lambda/container workflow. GitHub Actions, Azure App Services, private PyPI appear in the old CV.
+- **Software:** Docker, Kubernetes, Helm, GitLab CI/CD, Prometheus, Grafana, Git, Linux; concrete AWS experience limited to the described Lambda/container workflow. GitHub Actions and Azure App Services appear in the old CV; personally set up and maintained a private PyPI server at Simporter.
 - **Evidence rule:** Consult project records before assigning technologies to a particular project. AI-course framework names do not establish practical or production proficiency.
 
 ### Certifications
 
-- **Coursera Machine Learning, Andrew Ng** — completed with certificate, user-reported; all practical assignments in Python. Exact official title/version, issuer, date not verified.
+- **Machine Learning Specialization, DeepLearning.AI and Stanford Online, via Coursera** — completed **22 December 2022**, certificate screenshot reviewed; signed by Andrew Ng. All practical assignments in Python. [Certificate](https://www.coursera.org/account/accomplishments/specialization/certificate/GTV7FBL2W48T); online verification not independently retrieved.
 - **Hugging Face Agents Course** — completed **7 November 2026**; **Certificate of Excellence** issued to Oleh Kyba by Hugging Face Instructors, visually reviewed from the supplied PDF. [Certificate](documents/diplomas/Oleh_Kyba_Hugging_Face_Agents_Course_2026-11-07.pdf). Final-agent implementation details and evaluation score not yet recorded.
 
 ### Publications

@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Python backend and APIs, asyncio, aiohttp, FastAPI, PostgreSQL, Redis, Kafka, REST/gRPC, testing, service integration and AI-assisted development using Codex, Claude Code and Cursor.
+**Moderate match areas:** Trino, Apache Iceberg, S3, React/frontend integration, TypeScript, Celery, Airflow, SQLAlchemy, Flask, Scrapy and RabbitMQ; check project-specific depth.
+**Limited or unestablished:** Production AI agent/model development and depth in JavaScript and Elasticsearch are not established; Go experience is limited to the example in the candidate profile. Do not infer absence of other skills.
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for? Match on the function and nature of the work performed, not the literal job title - a "Data Consultant" and a "Data Scientist" role can be functionally identical.
@@ -74,9 +74,9 @@ Does work history align with what they're looking for? Match on the function and
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Senior Python backend, marketplace CRM, merchant payments, service integration and delivery.
+**Moderate:** Frontend integration, NLP-product backend and internal AI tooling; assess the actual work.
+**Entry-level:** Production AI/agent engineering experience is not established; course completion and internal tooling are distinct evidence.
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -88,13 +88,13 @@ Does the role and company culture match the behavioral profile?
 | 40-59 | Some friction areas |
 | 0-39 | Significant culture mismatch |
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+**Research:** Clarify actual responsibilities and team practices. Broader culture and management preferences are not established; do not treat maintenance as an automatic negative.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Remote from Slovakia explicitly supported: PASS, subject to other eligibility conditions.
+- Remote eligibility unclear: FLAG and verify; remote labels alone are insufficient.
+- Regular mandatory office attendance: FAIL. Approximately 2–3 office days every 2–3 months may be discussed, not automatically accepted.
+- Employers from Russia or Belarus: FAIL. Other relocation, travel, work authorization, tax and contract details are unconfirmed; discuss as needed.
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -107,19 +107,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Senior Python backend engineering and technically challenging product work.
+- Explore AI/agent engineering and develop relevant practical experience; ordinary backend work is also acceptable.
+- Consider opportunities across sectors, with adult and iGaming roles assessed individually.
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Interests: challenging backend engineering and AI/agent engineering; no rigid task preference.
+- Draining tasks and management preferences: not established.
+- Investigate non-task factors rather than inventing preferences.
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Compensation:** seeks more than approximately USD 4,000/month net after tax, not an unconditional rejection rule. Do not compare directly with gross or B2B amounts.
+- **Flexibility:** remote from Slovakia; scheduling and contract constraints not established.
+- **Professional development:** deeper backend challenges and opportunities to learn AI/agent engineering.
 
 ### 6. Salary Benchmark (Optional)
 

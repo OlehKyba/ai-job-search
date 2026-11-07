@@ -94,6 +94,17 @@ The interview record below contains **English summaries of the questions/topics 
 - **W2**: Official https://www.deeplearning.ai/about and https://www.deeplearning.ai/specializations/machine-learning support Andrew Ng / DeepLearning.AI identification and distinguish the original Octave course from the newer Python specialization. Not proof of which version he completed.
 - **I76** — **Question:** Which language did you use for the course assignments? **Answer:** **All practical Coursera Machine Learning assignments were in Python.** Concrete learning experience; does not alone identify certificate title/issuer/version.
 - **I77** — **Topic:** Hugging Face course completion update, 2026-11-07. **User report:** Completed the course on building agents and supplied a certificate PDF. This supersedes the earlier in-progress learning status [I71, I73–I74]; implementation details and final evaluation score were not supplied in this update.
+- **I78** — **Update:** User reports Apple Pay accounts for 12% and Google Pay 11% of all merchant payments; measurement period and methodology unspecified. Reconfirmed approximately UAH 10 million in about one month for EVO-03. Identified the Coursera credential as Machine Learning Specialization and supplied its certificate link. Location specificity was not established in this update; clarified later in I79–I80.
+- **I79** — **Location update:** User confirmed living in Bratislava, Slovakia. The assistant initially misinterpreted an earlier comment as a preference to omit the city; corrected in I80.
+- **I80** — **Correction:** User did not request omitting Bratislava from the CV. Include the confirmed city when appropriate.
+- **I81** — **Go experience:** User reports limited experience with Go from rewriting an existing Go microservice in Python as part of a larger service. Scope, project and outcome were not otherwise specified.
+- **I82** — **AI-assisted development:** Uses Codex, Claude Code and Cursor for development. Creates and maintains monolith-specific agent skills for test-environment login and for admin/CRM verification via browser tools including Playwright CLI. The verification skills also document starting the project, building the frontend and applying migrations when needed. These are agent instructions and workflows, not evidence that he built an agent runtime or independently verified every agent result. No internal authentication steps are recorded.
+- **I83** — **Agent skills motivation:** User emphasizes that the goal of developing these skills was to give agents a feedback loop to verify their own work. No automatic correction or measured outcome was claimed.
+- **I84** — **Volunteer project update:** User describes the NFT fundraising project as supporting the defense forces of Ukraine; the previously recorded source also describes humanitarian needs. The reported 92.7 ETH remains a whole-project result, not individual fundraising.
+- **I85** — **Simporter:** User clarified that he personally set up the private PyPI server, in addition to maintaining it.
+- **I86** — **EVO initial level:** User requested identifying his initial May–December 2021 level as Strong Junior. Exact official English job title was not separately confirmed.
+- **I87** — **Tagging/data tools:** User reports working with Trino and Iceberg in the tagging microservice and also with S3. Specific Iceberg responsibilities and broader S3 scope were not detailed.
+- **D3**: [Coursera Machine Learning Specialization certificate screenshot](../../../documents/diplomas/Oleh_Kyba_Machine_Learning_Specialization_2022-12-22.png), visually reviewed; recipient Киба Олег, dated 22 December 2022, three courses, DeepLearning.AI and Stanford Online branding, signed by Andrew Ng; certificate hosted by Coursera. The online verification endpoint was not independently retrieved.
 - **D1**: [Old CV](../../../documents/cv/Oleh_Kyba_Resume.pdf), both pages read. Creation date unconfirmed; user warned it is outdated. File modification time does not prove authorship date.
 - **D2**: [Hugging Face Agents Course certificate](../../../documents/diplomas/Oleh_Kyba_Hugging_Face_Agents_Course_2026-11-07.pdf), supplied from `/Users/olehkyba/Downloads/certificate.pdf` and copied unchanged. One-page image-based PDF, rendered and visually reviewed on 2026-11-07. States **Certificate of Excellence**, **Oleh Kyba**, successful completion of **Hugging Face Agents Course**, **Hugging Face Instructors**, date **2026-11-07**. No evaluation score, credential ID, or verification URL shown; issuer-side verification not performed.
 - **User-reported**: A direct user statement, not independent verification.
@@ -114,7 +125,7 @@ The interview record below contains **English summaries of the questions/topics 
 - Primary programming language: **Python** [U1].
 - Current employer: **EVO**, systems related to **prom.ua** [U1].
 - Current title: **Senior Software Engineer** [U1]; promoted in **June 2025** [I5].
-- Work context: backend, marketplace CRM, and payments [U1, D1]. Responsibility is detailed below.
+- Work context: backend, marketplace CRM, and payments [U1, D1]. The user describes Prom.ua as a high-load project; traffic and load figures have not been specified. Responsibility is detailed below.
 
 ## Career Goals and Preferences
 
@@ -135,7 +146,7 @@ The interview record below contains **English summaries of the questions/topics 
 **Geography [I66]**
 - Plans to work remotely **from Slovakia**.
 - **Employers: any country except Russia and Belarus [I67].** Hard exclusion; other markets are possible subject to the remaining requirements.
-- Current city unconfirmed; do not confirm Bratislava solely from D1. Headquarters/registration/ownership edge cases were not discussed; do not invent criteria.
+- Lives in Bratislava, Slovakia [I79]; the user did not request omitting the city from CV materials [I80]. Headquarters/registration/ownership edge cases were not discussed; do not invent criteria.
 - Citizenship, work authorization, tax status, and contract type are not established by the remote-work country.
 
 **Other conditions and sectors [I68]**
@@ -154,9 +165,10 @@ The interview record below contains **English summaries of the questions/topics 
 ## Identity
 
 - **Name:** Oleh Kyba [D1].
-- **Location:** Slovakia is the planned remote base [I66]; Bratislava appears in D1, current city to confirm.
-- **Phone:** Available in D1; current validity unverified, do not copy automatically into new documents.
-- **Email:** vestigor0@gmail.com [D1; also explicitly selected for this repository's Git identity; application use to confirm].
+- **Location:** Bratislava, Slovakia, confirmed by user [I79].
+- **Phone:** +421 949 418 279, confirmed current by the user for applications.
+- **Application email:** oleh.kyba@gmail.com, supplied by the user for applications.
+- **Previous email:** vestigor0@gmail.com [D1; also selected for this repository's Git identity].
 - **LinkedIn:** https://www.linkedin.com/in/oleh-kyba-0621b11b5 [D1].
 - **GitHub:** https://github.com/OlehKyba [D1].
 - **LeetCode:** https://leetcode.com/u/oleh_kyba [D1].
@@ -191,7 +203,7 @@ The interview record below contains **English summaries of the questions/topics 
 - Current title: Senior Software Engineer [U1]; Senior-level work described in I4.
 - Promoted to **Middle: January 2022** [I5, month-level interview confirmation].
 - Promoted to **Senior: June 2025** [I5, month-level interview confirmation]. Official English Middle-role title not established; do not invent it.
-- Junior work: simple bugs, small new features, and extensions to existing functionality. Tasks became more complex, alongside increasing ownership and business understanding [I4]. Formal title at hiring was not separately given.
+- Initial level: Strong Junior, May–December 2021, per user [I86]; exact official English title not separately confirmed. Early work involved simple bugs, small features and extensions, progressing toward greater ownership and business understanding [I4].
 - At Senior level, works from broadly expressed product needs to clarify business requirements, technical feasibility, and implementation approach [I4]. This does not imply sole authority over every decision; examples appear in the project inventory.
 - Original **CRM** team [I7]: one team lead, one product manager, two QA, and three developers including the candidate [I4].
 - Closely collaborating **Back Office** team [I7]: three developers, its own team lead, same product manager and shared QA [I4].
@@ -219,7 +231,7 @@ The interview record below contains **English summaries of the questions/topics 
 - Personal product involvement: **SIM-01–SIM-03** [I48–I49]. D1's four-product list included Prelaunch as company context; he confirmed no personal involvement.
 - D1: REST/JSON-RPC APIs, asynchronous scraping/NLP tasks, Celery preprocessing, GitHub Actions, Azure App Services.
 - Personally initiated, architected, and built an asynchronous task-management infrastructure microservice as a junior [I50; **SIM-05**]. Specific stack is not established; purpose and scope are detailed below.
-- D1: SQL optimization (indexes, queries, N+1, thread-local SQLAlchemy sessions), Scrapy spiders with Airflow, Flask ELK logging extension wrapping python-logstash-async, private PyPI maintenance.
+- D1: SQL optimization (indexes, queries, N+1, thread-local SQLAlchemy sessions), Scrapy spiders with Airflow, Flask ELK logging extension wrapping python-logstash-async; personally set up and maintained a private PyPI server [I85].
 - Main product work was Needs Analysis, also White Space backend; JTI involved limited support/bug fixes [I48]. Prelaunch excluded [I49]. Do not assign the entire data-science/pipeline scope to him.
 
 ## Independent Projects
@@ -233,7 +245,7 @@ The interview record below contains **English summaries of the questions/topics 
 - **Volunteered himself**, saying he was in a relatively safe city and able to code. City unspecified; do not substitute D1 or system timezone.
 - **Prom.ua developers' work was paused** then, allowing him to volunteer. This does not mean the website was down, the company closed, or he was dismissed.
 - Volunteering overlapped the EVO employment period; formal employment/pause terms were not explored. Do not count it as extra commercial tenure.
-- Purpose: cryptocurrency donations for humanitarian needs through NFTs available for others to buy [D1].
+- Purpose: NFT-based cryptocurrency fundraising for Ukraine; the old CV describes humanitarian needs [D1], and the user additionally describes support for Ukraine's defense forces [I84]. Do not infer an allocation breakdown.
 - D1 contribution: Python/asyncio worker periodically synchronizing OpenSea wallet state with database/landing-page data. **I57 limits ownership to the worker**, not the entire backend/platform.
 - Source name confirmed: **OpenSea** [I58]. Earlier OpenSearch wording was a dictation error, not OpenSearch experience.
 - **Whole-project result: 92.7 ETH** [D1, source clarified I61]. Reported by the leader/founder with access to a dedicated account and NFT donation/sale proceeds. Exact leadership title unknown. Candidate did not independently reconcile it: **reported team result**, not his personal fundraising or ledger. Gross/net, fees, period, and exact proceeds composition unspecified.
@@ -372,7 +384,7 @@ Unrecorded details remain unknown.
 
 **Results and open details**
 - Merchants gained Apple Pay/Google Pay [I16]; separate B2B iOS configuration achieved [I19]. Independent metrics/settings were stated goals, not separately measured outcomes.
-- Wallet-payment share unknown; user may check at work [I16]. No monitoring/reminder request.
+- User reports Apple Pay at **12%** and Google Pay at **11%** of all merchant payments [I78]. Measurement period, count versus value, and independent verification are unspecified; do not assume a measurement basis or causal uplift.
 - Decision collected [I20]: unsuccessful multi-ID profile alternative -> second config -> backend selection. Sufficient depth; no more technical questions now.
 - Dates and verification terminology may be clarified later without reconstructing every parameter.
 
@@ -415,7 +427,7 @@ User calls the algorithm **“deposition”** [I23]. Preserve as his feature lab
 - Frameworks, scheduling, charge atomicity/idempotency, paywall enforcement unspecified. Scope is enough for the initial record; no requirement to recover every detail.
 
 **Results and metric status [I24]**
-- Recalled approximately **UAH 10 million** in previously unused/“frozen” advertising balances charged over about **one month**. **User estimate, not reconciled exact amount.** Refines U1's “1 or 10 million” toward 10 million, without making it a verified metric.
+- Recalled approximately **UAH 10 million** in previously unused/“frozen” advertising balances charged over about **one month**. **Approximate amount reconfirmed by the user [I78]; not independently reconciled.** Refines U1's “1 or 10 million” toward 10 million, without making it a verified metric.
 - Small daily service-access charges; rate/exact period unspecified.
 - Product/mechanism result; his contribution was investigation, proposal, coordination, implementation [I21–I23]. Not personal receipt of funds or automatic accounting revenue equivalence.
 - Reports exceeding this feature's income plan; plan value/percentage unknown.
@@ -512,7 +524,7 @@ Status: **continued internal use after the hackathon confirmed** [I28]. Internal
 **Service boundary and data-access evolution [I32]**
 - Initially data lived in a separate analytics DB. Calculation moved into **a separate service** so the monolith would neither know nor access that DB; important security requirement at the time.
 - When direct analytics-DB access for the service itself was to be restricted, switched to **CSV in S3** containing exported analyst data. Export authorship, S3 provider, full pipeline unknown.
-- Later switched to **Trino**. Storage backend/connectors or Trino deployment/administration ownership not established.
+- Later switched to **Trino**; user also reports working with **Iceberg** in the tagging service [I87]. Specific Iceberg responsibilities, connectors and deployment/administration ownership are not established.
 - Three successive access/source arrangements: analytics DB -> CSV/S3 -> Trino; exact migration dates/release count unknown.
 
 **Personal contribution and architecture [I32, I35]**
@@ -795,7 +807,9 @@ and a clear distinction between individual and team contribution.
 
 - Python as primary language [U1].
 - asyncio, aiohttp, FastAPI, REST, gRPC [U1; D1 examples in EVO-05, EVO-06, VOL-01, and general EVO scope].
-- JavaScript and Go [D1 skills list only; proficiency/examples unknown].
+- TypeScript: frontend experience, reported by the user on 2026-11-07; project details and depth not yet described.
+- Go: limited experience from rewriting an existing Go microservice in Python as part of a larger service [I81]; do not imply extensive Go development.
+- JavaScript [D1 skills list; proficiency/examples unknown].
 - React [U1, D1/EVO-05]; depth/other frontend work to clarify.
 - Flask, Celery, SQLAlchemy, Scrapy, Airflow [D1/Simporter; exact tasks still to map to SIM projects].
 - Celery/Asterisk integration through tasks/HTTP webhooks [I8/EVO-07]; bounded Redis buffer/separate task functions [I9]. Release on Asterisk acceptance [I10]; dispatch admission uses Asterisk's active-call count for that category [I11]. Legacy, retries, concurrency experience; exact scheduling remains unknown.
@@ -811,6 +825,7 @@ and a clear distinction between individual and team contribution.
 - Personally implemented Kafka tag-assignment diffs to monolith [I33/EVO-05]; exact contracts/guarantees not discussed.
 - PostgreSQL, Redis, Kafka, RabbitMQ [U1, D1]; listing technologies alone does not establish architecture ownership.
 - Redis Pub/Sub [D1/EVO-05]; Kafka listeners [D1/EVO].
+- Trino and Apache Iceberg in the tagging microservice; S3 experience [I87]. Do not infer infrastructure ownership or proficiency depth beyond the described work.
 - Kafka payment-status handler [I14–I15/EVO-01]: message-ID deduplication, billing retries/DLQ, concurrency lock, PostgreSQL history, sequence-ID ordering. Do not infer guarantee scope; project record holds detail.
 - Elasticsearch [D1 skills list]; ELK logging extension [D1/Simporter].
 - SQL optimization: addressed N+1, connection pooling/extra queries; indexes/denormalization [I55/Simporter, probably JTI]. Exact SQL/results unknown. Thread-local SQLAlchemy sessions appear only in D1, not separately interview-confirmed.
@@ -834,7 +849,8 @@ and a clear distinction between individual and team contribution.
 - **Prometheus/Grafana:** tagging metrics, dashboards/alerts [I35–I36/EVO-05]; nightly run/success/data-quality checks, dashboard-based OOM diagnosis and batching. Numeric impact unknown.
 - GitHub Actions, Azure App Services, private PyPI [D1/Simporter].
 - Linux, Git [D1].
-- Project-specific browser-verification AI skills and scheduled-pipeline/bot/MR architecture importing local skills into GitLab marketplace [I26–I28/EVO-04]. Continued use confirmed; do not collect security-tool names.
+- AI-assisted development with Codex, Claude Code and Cursor; creates and maintains project-specific agent skills to give agents a feedback loop for verifying their work [I83], covering test-environment login, admin/CRM browser verification with Playwright CLI, project startup, frontend builds and migrations where needed [I82]. Do not include internal authentication procedures.
+- Scheduled-pipeline/bot/MR architecture importing local skills into a GitLab marketplace [I26–I28/EVO-04]. Continued use confirmed; do not collect security-tool names.
 
 ## Leadership and Collaboration
 
@@ -873,15 +889,11 @@ and a clear distinction between individual and team contribution.
 
 ## Certifications and Learning
 
-### Coursera Machine Learning, Andrew Ng [I71, I75–I76; reference W2]
+### Coursera Machine Learning Specialization [I71, I75–I76, I78, D3]
 
-- Reports a **Coursera Machine Learning course completion certificate**.
-- Completed learning/certificate user-reported; certificate itself not supplied/reviewed.
-- Instructor identified from his description as **Andrew Ng**, Coursera co-founder [I75; dictation normalized using W2]. Educational organization **DeepLearning.AI**, rather than “DeepMind AI” ([official reference](https://www.deeplearning.ai/about)).
-- Exact official title/version, issuer, date unresolved. Andrew Ng's connection to DeepLearning.AI does not automatically identify the certificate issuer.
-- [Official program comparison](https://www.deeplearning.ai/specializations/machine-learning) distinguishes original Octave Machine Learning from updated three-course Python Machine Learning Specialization. Identification context, not a completed-program attribution.
-- **All practical assignments in Python** confirmed [I76]. Check certificate title/issuer/date later; language alone does not prove completion of that specific specialization.
-- Course completion is not commercial ML engineering experience.
+- User identifies the completed credential as **Machine Learning Specialization**, taught by Andrew Ng, and supplied a [certificate link](https://www.coursera.org/account/accomplishments/specialization/certificate/GTV7FBL2W48T) [I78].
+- Certificate screenshot [D3] records completion on **22 December 2022**, with **DeepLearning.AI and Stanford Online** branding and Andrew Ng's signature; Coursera hosts the certificate. Its online verification endpoint was not independently retrieved.
+- All practical assignments were in Python [I76]. Completion does not itself establish commercial ML engineering experience.
 
 ### Hugging Face Agents Course [I77, D2; earlier I71–I73; syllabus W1]
 
@@ -943,26 +955,26 @@ These are retained question/topic summaries and their current status, rather tha
 - **GOAL-employers:** Any country except Russia/Belarus [I67].
 - **GOAL-other:** No further hard exclusions; Adult/iGaming considered case by case with concerns [I68].
 - **GOAL-comp:** More than current approximate USD 4,000/month **net** [I69–I70]; upper range unspecified.
-- **EXTRA:** Coursera ML certificate recorded [I71]; Hugging Face Agents Course completion/Certificate of Excellence dated 7 November 2026 documented [I77, D2]. Exact Coursera title/date pending; other nonwork contributions/projects not separately explored.
+- **EXTRA:** Coursera ML certificate recorded [I71]; Hugging Face Agents Course completion/Certificate of Excellence dated 7 November 2026 documented [I77, D2]. Coursera specialization title, date and program partners documented from certificate screenshot [D3]; other nonwork contributions/projects not separately explored.
 - **HF-cert / closed:** Completed Hugging Face Agents Course; Certificate of Excellence, Oleh Kyba, 7 November 2026 [I77, D2].
 - **HF-practice / deferred by preference, LEARN-01:** Course completion recorded [I77, D2]; project implementation case study, score/framework/repository remain uncollected. Discuss when the user chooses to reopen it [I74]; no monitoring/reminder.
-- **CERT-id / deferred verification:** Andrew Ng, Coursera ML, all-Python assignments established [I71, I75–I76]. Exact title/issuer/date not checked; do not re-ask language.
-- **E3 / deferred:** Apple Pay/Google Pay payment share; user may check at work [I16]. No current number or automatic follow-up.
+- **CERT-id / resolved from certificate screenshot:** Machine Learning Specialization, 22 December 2022, DeepLearning.AI and Stanford Online, hosted by Coursera [D3]. All assignments were in Python [I76]; online verification not independently retrieved.
+- **E3 / updated:** Apple Pay 12%, Google Pay 11% of all merchant payments, user-reported [I78]; period and measurement basis unspecified.
 - **B1:** EVO-01/EVO-02 phases separated [I18]; EVO-01 end known, start approximate; EVO-02 date unknown. EVO-03 separate case approximately summer 2026 [I21–I25]; other EVO cases also recorded. Do not invent initiative dependencies.
-- **E1 / deferred:** Verify EVO-03 amount. Latest estimate approximately UAH 10 million/about one month [I24], replacing U1's “1 or 10 million.” Exact amount/counting method unverified; do not present estimate as exact.
+- **E1 / updated:** Approximately UAH 10 million over about one month reconfirmed by user [I78]. Exact amount/counting method not independently verified; retain approximation.
 - **E2:** 92.7 ETH source established in user's account [I61]: leader/founder report. Preserve team attribution and “reported, not independently checked,” not personal fundraising.
 - **F1:** Master's completed June 2025 [I62]; exclude/do not ask thesis topic [I63]. Start dates/official degree wording may be checked as needed, without demanding diploma now.
-- **F2 / when preparing materials:** Slovakia/working and geographic preferences established [I65–I68]; English approximately C1 is U1 self-assessment. Current city/contacts/some formal dates may be checked before documents. Do not infer from timezone/Git identity.
+- **F2 / when preparing materials:** Slovakia/working and geographic preferences established [I65–I68]; English approximately C1 is U1 self-assessment. Bratislava confirmed [I79]; some formal dates remain unknown. Application phone and email were supplied later. Do not infer from timezone/Git identity.
 
 ## Interview Progress
 
 - **Mode:** Career discovery conversations in Ukrainian, one primary question then wait. Adaptive technical follow-ups; allow for dictation errors. This stored knowledge base, question summaries, and answer summaries are now in English at the user's request; future CV language is English.
 - **Using supplied CV [I30]:** Choose next topics from the existing document. Do not make user relist known projects or ask questions already answered by D1.
 - **Pacing [I7, I12]:** Avoid many questions on organization trivia or low-level details of old small tasks. Prioritize significant projects, problem, contribution, key decisions, results; go deeper selectively to understand current level. Not a memory exam on five-year-old code. Accept unknowns without repeated questioning.
-- **Current status:** Initial interview pass complete, no active question. Coursera ML/Python clarified [I76]; exact Coursera certificate details deferred. **Hugging Face Agents Course completed; Certificate of Excellence dated 7 November 2026 visually reviewed [I77, D2].** LEARN-01 implementation details remain for a separate discussion when the user chooses to reopen it.
+- **Current status:** Initial interview pass complete, no active question. Coursera ML/Python clarified [I76]; specialization certificate date and program partners documented from screenshot [D3]. **Hugging Face Agents Course completed; Certificate of Excellence dated 7 November 2026 visually reviewed [I77, D2].** LEARN-01 implementation details remain for a separate discussion when the user chooses to reopen it.
 - **Completed:** Repository rules and both CV pages read; initial discovery persisted as I1–I76, separating D1 and official W1/W2 from personal facts. Key cases, competencies, collaboration, outcomes, preferences collected. English translation and CLAUDE.md profile summary requested on 2026-10-26. Completion update I77 and certificate D2 recorded on 2026-11-07; concise profile and detailed learning/project records synchronized.
 - **Coverage:** A: timeline/promotions/teams; B/C: EVO-01–EVO-06, sufficient early EVO-07, Simporter/SIM-05/SQL, security, tests, CI/CD, observability; D: initiatives, product/legal/mobile/fintech/CTO coordination, knowledge sharing, exact interview role; E: results with sources/estimates; F: volunteering/AWS, MSc completion, Coursera/HF. Goals/remote/geography/compensation also recorded.
-- **Recommended next topic:** When data are available, verify EVO-03 amount, wallet-payment share, exact Coursera certificate. Deferred clarifications, not demands now or monitoring. LEARN-01 implementation can be explored when the user chooses, now that course completion is documented. On new requests, continue the specific topic without restarting discovery. CV/job search are separate workflows.
+- **Recommended next topic:** Wallet shares, approximate EVO-03 amount, Coursera specialization title/link and location were updated [I78–I80]; certificate screenshot records its date and program partners [D3]; wallet measurement context remains unspecified. LEARN-01 implementation can be explored when the user chooses, now that course completion is documented. On new requests, continue the specific topic without restarting discovery. CV/job search are separate workflows.
 - **Persistence:** After meaningful topics, briefly summarize, allow corrections, save confirmed details/open questions here. Do not label preliminary source notes independently verified.
 - **Current scope:** Collect/document experience. CVs, cover letters, job searches/applications are separate future work.
 - **Resuming:** Read this file first; do not repeat answered questions.
