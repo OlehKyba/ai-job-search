@@ -1,10 +1,9 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Oleh Kyba
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+<!-- Career discovery started 2026-10-25; canonical profile linked below. -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Oleh Kyba, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,79 +12,128 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
+This is the concise working profile for the repository. The detailed, source-labelled
+[Career Knowledge Base](.claude/skills/job-application-assistant/01-candidate-profile.md)
+is authoritative for project scope, evidence, corrections, estimates, and unresolved details.
+Update this summary when confirmed facts change; do not maintain a separate competing history.
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
+
+- **Name:** Oleh Kyba
+- **Location:** Slovakia, planned remote-work base; Bratislava in the old CV, current city not reconfirmed.
+- **Email:** vestigor0@gmail.com, from the old CV and explicitly configured for this repository's Git identity; confirm current application contact details before producing a CV.
+- **LinkedIn:** https://www.linkedin.com/in/oleh-kyba-0621b11b5
+- **GitHub:** https://github.com/OlehKyba
 - **Languages:**
+
   | Language | Level |
   |----------|-------|
-  | [LANGUAGE] | [LEVEL] |
-  <!-- Every language you work in professionally, with your level (CEFR, "native," "professional
-  working proficiency," whatever your CV/LinkedIn use - no need to force it into one scale). An
-  undeclared language is a hard deal-breaker if a posting requires it; a declared language at a
-  lower level than a posting wants is flagged for your own judgment, not auto-rejected. See
-  04-job-evaluation.md's Language Gate. -->
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+  | English | Approximately C1, self-assessed; old CV listed B2 |
+  | Ukrainian | Native, from the old CV |
+  | Russian | C2 in the old CV; current relevance and preference to list not confirmed |
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+  Required languages absent from this profile must not be assumed. Treat lower declared
+  proficiency as a point for the candidate's judgment, following the canonical evaluation workflow.
+- **CV language:** English, explicitly requested on 2026-10-26.
+- **Status:** Employed at EVO; exploring a move to a Senior Python Backend Engineer role.
+- **LinkedIn headline:** Not provided; do not present the target role as an existing headline.
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+
+- **Master of Science in Computer Science** — National University of Kyiv-Mohyla Academy, completed **June 2025** (user-confirmed); start date unknown, official degree wording from old CV not checked against diploma.
+- **Bachelor of Science in Computational Science** — NTUU "Igor Sikorsky Kyiv Polytechnic Institute", **June 2021** in old CV; start date, exact dates, and official subject translation not separately confirmed.
+- **CV preference:** Do not include or ask for the Master's thesis topic.
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+
+- **Commercial experience:** Approximately six years, user-reported; overlapping volunteering is not additional commercial tenure.
+- **EVO / Prom.ua — Senior Software Engineer**; company tenure **May 2021–present**. Promoted to **Middle in January 2022**, **Senior in June 2025**. Official intermediate English title not provided.
+  - Started with CRM maintenance/features; grew into clarifying product requirements, evaluating feasibility, and owning implementation, integration, delivery, and rollout across significant projects.
+  - Owned merchant-side RozetkaPay migration: web frontend, web/mobile backend APIs, provider integration, reliable Kafka status handling, and mobile-team coordination. Base card/saved-card rollout reached **100% of this merchant payment flow on 10 January 2026**; Apple Pay/Google Pay followed separately.
+  - Independently built company tagging across backend/frontend/integrations, GitLab CI/CD, Helm deployment templates, Prometheus metrics, Grafana dashboards/alerts. Replaced expensive query-time tags with daily persisted assignments; data sources evolved analytics DB -> CSV/S3 -> Trino behind repository interfaces/DI. Page speedup is qualitative, without numeric measurements.
+  - Built Telegram support integration and CI/CD/deployment. Managers reported **22% of support requests** through Telegram about three months after the approximate summer 2024 launch; historical reported channel share, not a current verified metric. Viber extension was someone else's work.
+  - Investigated, proposed, coordinated with product/legal, and implemented advertising-balance charging changes around summer 2026. **Approximately UAH 10 million in about one month** is an unverified user estimate, not an exact revenue claim. Further trial/reactivation proposal was deferred, not implemented.
+  - Designed project-skill synchronization into a shared GitLab AI marketplace for the **22 May 2026** hackathon; continued internal use reported. Security tooling was configured by another team.
+- **Simporter — Junior Software Engineer, Python** (**September 2020–May 2021**, old CV dates, not separately reconfirmed). First commercial development role.
+  - Backend work mainly on Needs Analysis and also White Space; limited JTI support/bug fixes and probably a database-optimization case. Data engineers/scientists owned the main NLP/model pipeline work.
+  - Initiated, architected, and built an asynchronous task-management microservice with working direct-scraper, Apache Airflow, and Celery integrations, task IDs/status queries, and optional webhook notifications.
+  - **No involvement in Prelaunch**; exclude it from personal experience despite the old CV product list.
+- **Volunteer NFT platform — Python synchronization worker** (**March–June 2022**, old CV dates).
+  - OpenSea API -> database metadata/image URLs; hourly AWS Lambda from a CI-built container image. Another developer owned Next.js.
+  - **92.7 ETH** was the project leader/founder's reported **team result**, not personal fundraising or an independently reconciled amount.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+
+- **Primary:** Python; backend/API development; asyncio, aiohttp, FastAPI; PostgreSQL, Redis; Kafka; REST/gRPC.
+- **Secondary:** React/frontend integrations; Celery, Apache Airflow, SQLAlchemy, Flask, Scrapy; RabbitMQ. JavaScript, Go, Elasticsearch are listed in the old CV without established depth/examples.
+- **Architecture and practice:** Repository/DAO interfaces, dependency injection, service boundaries, asynchronous/event-driven integration, deduplication, retries/DLQ, locking, status history/order handling, SQL optimization, incremental testing/TDD, feature-flag rollout.
+- **Domain:** Marketplace CRM/back office, merchant payment integration, company segmentation/special offers, support tooling, NLP-product backend work, internal AI tooling.
+- **Software:** Docker, Kubernetes, Helm, GitLab CI/CD, Prometheus, Grafana, Git, Linux; concrete AWS experience limited to the described Lambda/container workflow. GitHub Actions, Azure App Services, private PyPI appear in the old CV.
+- **Evidence rule:** Consult project records before assigning technologies to a particular project. AI-course framework names do not establish practical or production proficiency.
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+
+- **Coursera Machine Learning, Andrew Ng** — completed with certificate, user-reported; all practical assignments in Python. Exact official title/version, issuer, date not verified.
+- **Hugging Face Agents Course** — completed **7 November 2026**; **Certificate of Excellence** issued to Oleh Kyba by Hugging Face Instructors, visually reviewed from the supplied PDF. [Certificate](documents/diplomas/Oleh_Kyba_Hugging_Face_Agents_Course_2026-11-07.pdf). Final-agent implementation details and evaluation score not yet recorded.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+
+- Not discussed; no publications should be assumed present or absent.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+
+- No award confirmed. Participated in the company hackathon on **22 May 2026**; participation is not evidence of winning an award.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+
+- **Ownership:** Concrete examples of taking a product need through investigation, design, implementation, integration, and rollout; see payment and tagging records.
+- **Quality focus:** Incremental tests, TDD, test pipelines, test-review initiative, reusable configuration/feature-flag testing utilities. Reports positive feedback on well-tested code and few bugs; no audited defect metrics.
+- **Collaboration:** Product/legal, fintech, mobile, analytics, and other service teams; regular technical knowledge sharing, occasional help for Middle developers.
+- **Interviewing:** Supporting intern/junior interviewer; once led a full technical interview under a team lead's observation, followed by HR feedback.
+- **Strengths:** Demonstrated technical initiative, business-context clarification, cross-team integration, testing, and service delivery.
+- **Growth areas:** Interested in gaining more AI/agent engineering practice; current coursework does not establish production agent/model-development expertise.
+- **Thrives in:** Seeks technically interesting backend work; moved to EVO for stronger backend challenges. Broader culture/environment preferences and formal behavioral assessments not discussed.
+- **Mentoring/management:** No regular mentoring experience reported; formal people management or final hiring authority not established.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+
+- Technically challenging backend engineering and growing responsibility for product outcomes.
+- Opportunities to work more with AI, agents, and related engineering; ordinary backend roles remain acceptable, with no rigid task preference.
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+
+- Open to backend roles across sectors; AI engineering/agent opportunities are an additional interest.
+- Employers from any country **except Russia and Belarus**, with work performed remotely from Slovakia.
+- **Adult and iGaming:** Concerns, but willing to evaluate individual offers; not automatic exclusions.
+- **Compensation goal:** Above the current approximate **USD 4,000/month net after tax**. Upper range unspecified; not an explicitly unconditional rejection filter. Do not compare directly with gross salary/B2B invoice amount or publish expectations in a CV automatically.
 
 ### Deal-breakers
-<!-- Hard constraints on job search. Language requirements are handled separately and
-automatically from your Languages table above - don't duplicate them here. -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+
+- Remote work required. Office access may be optional; rare visits of roughly **2–3 days every 2–3 months** are a possible exception to discuss. Regular mandatory weekly hybrid does not fit.
+- Employers from **Russia or Belarus** excluded.
+- No additional hard exclusions specified. Contract eligibility, work authorization, tax details, and scheduling constraints remain unknown; do not infer them from location.
+
+## Career Knowledge Base
+
+Detailed career discovery records, English question/answer summaries, project inventories,
+evidence labels, corrections, open questions, and interview progress are maintained in
+[01-candidate-profile.md](.claude/skills/job-application-assistant/01-candidate-profile.md).
+Read it before evaluating job fit or drafting career materials. This file's Candidate Profile
+is the concise overview; the linked knowledge base preserves the underlying detail.
+
+### Current Work: Career Discovery
+
+The initial discovery pass is complete. The stored knowledge base is in English, including
+summaries of interview questions/topics and answers. Future CVs will be in English.
+For further interview discussion, use Ukrainian, one primary question at a time, and resume
+from **Interview Progress** and **Open Questions** rather than restarting the interview.
+Persist discoveries incrementally; distinguish historical document claims, user-confirmed
+facts, estimates, and unknowns. Respect deferred topics and CV-content preferences.
+The Hugging Face Agents Course is completed and its certificate recorded (7 November 2026).
+Discuss final-agent implementation details when the user chooses to reopen that project.
+CVs, cover letters, job searches, and applications require a separate user request.
+Keep employer projects under employment/project records; do not classify EVO or Simporter
+work as independent projects merely to fit a documents/projects importer.
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
