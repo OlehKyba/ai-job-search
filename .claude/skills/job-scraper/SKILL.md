@@ -89,6 +89,15 @@ Tag each fallback result as WebSearch-sourced, keeping the portal tag when the f
 
 Before detail fetches, combine the promising search hits into a JSON array in a temporary file outside the repo. Include each hit's source portal and `source` (`cli` or `websearch`), then run:
 
+**Djinni exception:** its RSS search always returns a null company and location,
+which `candidates` rejects. First prefilter Djinni hits by title and date, then
+fetch `detail` for promising hits and merge its company and location into each
+search hit before calling `candidates`. Keep the original search URL and source;
+normalize the RSS date to `YYYY-MM-DD` when possible. If detail fails or the
+company remains missing, report the hit as incomplete and do not invent a company.
+Reuse the fetched detail after deduplication. Check the description and applicant
+countries for eligibility to work from Slovakia.
+
 ```bash
 python3 tools/scrape_state.py candidates --results "<temporary search results.json>"
 ```
@@ -229,6 +238,8 @@ Scraper-based portal CLIs rot silently: when a portal changes its markup, the pa
 **Free pass (no extra requests).** For each enabled portal that ran in Step 1b:
 
 - **Degraded scan:** inspect the results it returned this run. Flags: `company` null or empty on every result, empty titles, undecoded entities (`&amp;`) or HTML fragments in titles, URLs that do not point at the portal. Any of these means the parser is half-working and `/scrape` is silently collecting junk.
+- Djinni's RSS intentionally omits company: judge its company field after the
+  detail enrichment above, not on raw RSS results.
 - **Yield history:** if the portal returned zero results across all of this run's queries, run `python3 tools/scrape_state.py history --portal <skill-name> --domain <portal-host>` (the host from that portal's documented base URL). It counts prior `job_scraper/seen_jobs.json` entries by `portal`, or by URL host for entries predating that field, without loading the history into context. A portal that produced jobs on earlier runs and produces nothing now is suspect - the same queries worked before.
 
 **Escalation (bounded, on suspicion only).** A suspect portal gets **one** sentinel probe: run its documented `search` with the example query from its own SKILL.md (that query provably worked when the skill was registered), the portal's limit flag capped at 3, `--format json`. If that returns nothing, retry **once** with a single common word. Only then is the verdict **broken**. A 429 or block page is **never** evidence of breakage - record the portal as **inconclusive (rate-limited)**, back off, and do not retry.
